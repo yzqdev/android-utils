@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sample</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="confirm">confirm</string>
+    <string name="no_network">There is no network</string>
+    <string name="hint">hint</string>
+
+</resources>
