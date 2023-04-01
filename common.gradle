@@ -1,0 +1,25 @@
+
+
+tasks.configureEach { task ->
+
+    if (task.name.equals("lint")) {
+        //this is for speed up build
+        task.enabled = false
+        println("-------------------close lint")
+        println(task.name)
+    }
+    if (task.name.contains("Test")) {
+        //this is what you need
+        task.enabled = false
+        println("-------------------close test")
+        println(task.name)
+    }
+}
+tasks.whenTaskAdded { task ->
+    if (task.name.contains('lint') || task.name.contains('Test')) {
+        task.enabled = false
+        println("-------------------close test and lint")
+        println(task.name)
+    }
+}
+

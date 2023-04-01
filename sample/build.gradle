@@ -1,7 +1,8 @@
 plugins {
     id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
 }
-
+apply from:'../common.gradle'
 android {
     namespace 'com.yzq.utilssample'
     compileSdk 33
