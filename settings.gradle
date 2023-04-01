@@ -1,25 +1,25 @@
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-
-        google()
-        mavenCentral()
-        maven{
-             url "https://jitpack.io"
-        }
-
-
-    }
-}
+//pluginManagement {
+//    repositories {
+//        google()
+//        mavenCentral()
+//        gradlePluginPortal()
+//    }
+//}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//
+//        google()
+//        mavenCentral()
+//        maven{
+//             url "https://jitpack.io"
+//        }
+//
+//
+//    }
+//}
 rootProject.name = "android-utils"
-include ':utils'
+
 include ':sample'
 
 include ':androidutils'
